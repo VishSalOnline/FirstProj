@@ -8,6 +8,7 @@ while userGuess!=randomNumber:
     userGuess=int(input("Enter the Number : "))
     if userGuess==randomNumber:
         print("You guessed it right.")
+        
     else:
         print("You guessed it wrong.")
         if userGuess>=randomNumber:
